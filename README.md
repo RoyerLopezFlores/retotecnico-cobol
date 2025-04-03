@@ -17,7 +17,7 @@ pip install pandas
 Para ejecutar el script, usa el siguiente comando en la terminal:
 
 ```sh
-python script.py [ruta_del_archivo] [separador]
+python app.py [ruta_del_archivo] [separador]
 ```
 
 - `ruta_del_archivo` (opcional): Ruta del archivo CSV con los datos de las transacciones (por defecto `data.csv`).
@@ -26,7 +26,7 @@ python script.py [ruta_del_archivo] [separador]
 Ejemplo de ejecución:
 
 ```sh
-python script.py transacciones.csv ;
+python app.py transacciones.csv ;
 ```
 
 ## Enfoque y Solución
